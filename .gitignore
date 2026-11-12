@@ -44,3 +44,7 @@ next-env.d.ts
 
 # generated before every dev and build run
 /lib/self-snapshot.json
+
+# local server logs
+dev.log
+push.log
