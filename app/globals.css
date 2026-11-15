@@ -844,3 +844,28 @@ button {
     transition-duration: 0.01ms !important;
   }
 }
+
+.md-table {
+  margin: 0 0 12px;
+  overflow-x: auto;
+}
+
+.md-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.md-table th,
+.md-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.md-table th {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 15px;
+}
